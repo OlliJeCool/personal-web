@@ -1,0 +1,29 @@
+.project{
+    width: 18%;
+    height: 70%;
+    background-color: rgb(32, 32, 32);
+    border-radius: 30px;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease;
+    color: whitesmoke;
+    border-color: rgba(245, 245, 245, 0.021);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.project:hover{
+    width: 19%;
+    height: 80%;
+    margin: 8px;
+    border-radius: 20px;
+    box-shadow: -8px -8px 60px 1px rgba(98, 0, 255, 0.404),
+                8px 8px 30px 1px rgb(219, 219, 219, 20%);
+    font-size: 1.3em;
+    border-radius: 35px;
+    background-image: linear-gradient(251.33deg, #6100FF -20.81%, #DBDBDB 123.65%);
+    border-style: none;
+}
